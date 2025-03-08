@@ -1,0 +1,38 @@
+body {
+    background-color: #e1baff; 
+    font-family: Arial, sans-serif;
+} /*This displays the background color and font family I used*/
+h1 {
+    color: rgb(195, 139, 10);
+} /*This is the color I used for header 1 and the margin from the left that I wanted it*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} /*This displays the font, margins, and padding I used for my body.*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #42146b;
+    overflow: hidden;
+    text-align: center;
+} /*This displays how I wanted my navigation bar to look*/
+
+nav ul li {
+    display: inline-block;
+} /*This stacks my pages horizontally instead of vertically*/
+
+nav ul li a {
+    display: block;
+    color: rgb(195, 139, 10);
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+} /*This displays the color and placement of how I wanted my navigation bar to look*/
+
+nav ul li a:hover {
+    background-color: #111;
+} /*This displays the color of the navigation bar when hovering over it with the mouse*/
