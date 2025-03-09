@@ -36,3 +36,10 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 } /*This displays the color of the navigation bar when hovering over it with the mouse*/
+.image {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    margin-right: 20px; 
+    margin-bottom: 10px;
+} /*This part of my CSS ensures that the picture is fully to the left and not covering any text.*/
